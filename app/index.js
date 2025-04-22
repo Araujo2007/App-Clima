@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Image, StyleSheet, ActivityIndicator, Keyboard } from 'react-native';
 
-const API_KEY = 'b8ced12264314836a15123945240309'; // 🟡 Substitua pela sua chave da WeatherAPI.com
+const API_KEY = 'b8ced12264314836a15123945240309';
 
 export default function App() {
   const [cidade, setCidade] = useState('');
